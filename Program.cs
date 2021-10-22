@@ -19,7 +19,7 @@ namespace easd
             Console.WriteLine("u right");
             Console.WriteLine("it was " + secNum);
 
-            Console.WriteLine("men du tog många, många försök, exakt " + tries + "försök faktiskt");
+            Console.WriteLine("men du tog många, många försök, exakt " + tries + " försök faktiskt");
         }
 
         public static int Check(){
