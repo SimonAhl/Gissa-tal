@@ -11,15 +11,15 @@ namespace easd
 
             secNum = ran.Next(1, 101);
 
-            Console.WriteLine("HAHAHA FOOL, YOU MAY NEVER GUESS MY [[[NUMBER]]] between 1 and 100");
+            Console.WriteLine("mannen, gissa ett tal mellan 1 och 100");
 
             int tries = Check();
 
-            Console.WriteLine("shit, uuuh");
+            Console.WriteLine("yup");
             Console.WriteLine("u right");
             Console.WriteLine("it was " + secNum);
 
-            Console.WriteLine("BUT AT LEAST YOUR MONKEY BRAIN TOOK [" + tries + "] TRIES FOOOL");
+            Console.WriteLine("men du tog många, många försök, exakt " + tries + "försök faktiskt");
         }
 
         public static int Check(){
@@ -34,9 +34,9 @@ namespace easd
                     return (tries);
                 }
                 else if(g > secNum){
-                    Console.WriteLine("FOOL,,,,, YOU NEVER STOOD A CHANCE, ITS SIMPLE REALLY, YOURE WRONG, ITS TO HIGH HAHAHAHHAHAHAHHA");
+                    Console.WriteLine("sorry man, för högt");
                 }else if(g < secNum){
-                    Console.WriteLine("JUST LIKE YOUR BRAIN, THIS IS TO LOW");
+                    Console.WriteLine("nope, too low");
                 }
             }
 
